@@ -170,13 +170,13 @@
 "dn" = (/obj/covers/wood,/obj/structure/bed/chair/wood/red{icon_state = "wooden_chair_red"; dir = 4},/obj/covers/carpet/redcarpet,/turf/floor/grass/jungle,/area/caribbean/roofed)
 "do" = (/obj/covers/wood,/obj/item/weapon/paper,/obj/item/weapon/pen,/obj/structure/table/wood,/obj/covers/carpet/redcarpet,/turf/floor/grass/jungle,/area/caribbean/roofed)
 "dp" = (/turf/wall/rockwall,/area/caribbean/void/caves{base_turf = /turf/floor/dirt; name = "The Caves"})
-"dq" = (/obj/structure/simple_door/key_door/civ/gov{name = "Governor's Office"},/obj/covers/wood,/turf/floor/grass/jungle,/area/caribbean/roofed)
+"dq" = (/obj/structure/simple_door/key_door/civ/gov{name = "Governor's Office"},/obj/covers/wood,/obj/covers/carpet,/turf/floor/grass/jungle,/area/caribbean/roofed)
 "dr" = (/obj/structure/wild/palm,/turf/floor/grass/jungle,/area/caribbean/nomads/forest/Jungle/river)
-"ds" = (/obj/covers/wood,/obj/effect/landmark{name = "JoinLateCivA"},/turf/floor/grass/jungle,/area/caribbean/roofed)
-"dt" = (/obj/covers/wood,/obj/structure/simple_door/key_door/civ/gov{name = "Governor's Quarters"},/turf/floor/grass/jungle,/area/caribbean/roofed)
+"ds" = (/obj/covers/wood,/obj/effect/landmark{name = "JoinLateCivA"},/obj/covers/carpet,/turf/floor/grass/jungle,/area/caribbean/roofed)
+"dt" = (/obj/covers/wood,/obj/structure/simple_door/key_door/civ/gov{name = "Governor's Quarters"},/obj/covers/carpet,/turf/floor/grass/jungle,/area/caribbean/roofed)
 "du" = (/obj/structure/multiz/ladder/ww2/tunnelbottom,/turf/wall/rockwall,/area/caribbean/void/caves{base_turf = /turf/floor/dirt; name = "The Caves"})
 "dv" = (/obj/covers/wood,/obj/structure/barricade,/obj/structure/window/classic/reinforced,/obj/structure/curtain/leather/open,/turf/floor/grass/jungle,/area/caribbean/roofed)
-"dw" = (/obj/structure/exportbook,/obj/covers/roads/cobble,/turf/floor/beach/sand,/area/caribbean/nomads/forest/Jungle)
+"dw" = (/obj/covers/roads/cobble,/obj/structure/exportbook_colony,/turf/floor/beach/sand,/area/caribbean/nomads/forest/Jungle)
 "dx" = (/obj/covers/wood,/obj/structure/oven,/turf/floor/grass/jungle,/area/caribbean/roofed)
 "dy" = (/obj/covers/wood,/obj/structure/table/wood,/obj/item/weapon/key/civ/room1,/obj/item/weapon/key/civ/room2,/obj/item/weapon/key/civ/room3,/obj/item/weapon/key/civ/room4,/obj/item/weapon/key/civ/room5,/obj/item/weapon/key/civ/room6,/obj/item/weapon/key/civ/room7,/obj/item/weapon/key/civ/room8,/turf/floor/grass/jungle,/area/caribbean/roofed)
 "dz" = (/obj/structure/wild/junglebush,/turf/floor/grass/jungle,/area/caribbean/nomads/forest/Jungle/river)
@@ -208,7 +208,7 @@
 "dZ" = (/obj/structure/window/barrier{icon_state = "dirt_wall"; dir = 1},/turf/floor/grass/jungle,/area/caribbean/nomads/forest/Jungle)
 "ea" = (/obj/structure/window/barrier{icon_state = "dirt_wall"; dir = 1},/obj/structure/window/barrier{icon_state = "dirt_wall"; dir = 4},/turf/floor/grass/jungle,/area/caribbean/nomads/forest/Jungle)
 "eb" = (/mob/living/simple_animal/hostile/poison/snake,/turf/wall/rockwall,/area/caribbean/void/caves{base_turf = /turf/floor/dirt; name = "The Caves"})
-"ec" = (/obj/covers/wood,/obj/structure/bed/chair/wood,/turf/floor/grass/jungle,/area/caribbean/roofed)
+"ec" = (/obj/covers/wood,/obj/structure/bed/chair/wood,/obj/covers/carpet,/turf/floor/grass/jungle,/area/caribbean/roofed)
 "ed" = (/obj/structure/window/barrier{icon_state = "dirt_wall"; dir = 1},/obj/structure/window/barrier{icon_state = "dirt_wall"; dir = 8},/turf/floor/grass/jungle,/area/caribbean/nomads/forest/Jungle)
 "ee" = (/obj/covers/wood_ship{name = "pier"},/obj/effect/landmark{name = "SupplyRN"},/obj/structure/railing{icon_state = "railing0"; dir = 1},/turf/floor/dirt/jungledirt,/area/caribbean/transport/one)
 "ef" = (/obj/covers/cobblestone,/obj/structure/filingcabinet/filingcabinet,/turf/floor/plating/cobblestone/dark,/area/caribbean/void/caves)
@@ -233,7 +233,7 @@
 "ey" = (/obj/covers/wood/stairs{icon_state = "wood2_stairs2"; dir = 6},/turf/floor/grass/jungle,/area/caribbean/roofed)
 "ez" = (/obj/covers/wood,/obj/structure/bed/chair/wood{icon_state = "wooden_chair"; dir = 8},/turf/floor/grass/jungle,/area/caribbean/roofed)
 "eA" = (/obj/covers/wood,/obj/structure/table/wood,/obj/item/weapon/deck/cards,/turf/floor/grass/jungle,/area/caribbean/roofed)
-"eB" = (/obj/item/flashlight/lantern/on{anchored = 1; fuel = 2.14748e+009},/obj/structure/sign/custom{desc = "The hall of the British Governor, where they sleep and work."; name = "Colony Hall"},/obj/covers/roads/cobble,/obj/covers/brick_wall,/turf/floor/grass/jungle,/area/caribbean/roofed)
+"eB" = (/obj/item/flashlight/lantern/on{anchored = 1; fuel = 2.14748e+009},/obj/covers/roads/cobble,/obj/covers/brick_wall,/turf/floor/grass/jungle,/area/caribbean/roofed)
 "eC" = (/obj/covers/wood,/obj/structure/simple_door/key_door/civ/hall,/obj/covers/roads/cobble,/turf/floor/grass/jungle,/area/caribbean/roofed)
 "eD" = (/obj/covers/wood,/obj/structure/barricade/steel,/obj/structure/window/classic,/obj/structure/curtain/leather/open,/turf/floor/grass/jungle,/area/caribbean/roofed)
 "eE" = (/obj/item/flashlight/lantern/on{anchored = 1; fuel = 2.14748e+009},/obj/covers/wood_wall/adjustable,/obj/covers/roads/cobble,/turf/floor/grass/jungle,/area/caribbean/roofed)
@@ -318,7 +318,7 @@
 "gh" = (/obj/covers/wood,/obj/structure/table/wood,/obj/item/weapon/paper,/obj/item/weapon/pen,/turf/floor/grass/jungle,/area/caribbean/roofed)
 "gi" = (/obj/covers/wood,/obj/structure/simple_door/key_door/civ/hall{name = "Prison Area"},/turf/floor/grass/jungle,/area/caribbean/roofed)
 "gj" = (/obj/covers/wood,/obj/structure/table/wood,/obj/item/weapon/stamp,/turf/floor/grass/jungle,/area/caribbean/roofed)
-"gk" = (/obj/item/flashlight/lantern/on{anchored = 1; fuel = 2.14748e+009},/obj/structure/sign/custom{desc = "The residence of the Colony Watch"; name = "Guard Barracks"},/obj/covers/brick_wall,/turf/floor/grass/jungle,/area/caribbean/roofed)
+"gk" = (/obj/covers/brick_wall,/obj/structure/sign/colony_military,/turf/floor/grass/jungle,/area/caribbean/roofed)
 "gl" = (/turf/floor/grass/jungle,/area/caribbean/tribes/swamp)
 "gm" = (/obj/structure/wild/junglebush,/turf/floor/grass/jungle,/area/caribbean/tribes/swamp)
 "gn" = (/turf/floor/beach/water/jungle,/area/caribbean/nomads/forest/Jungle/river)
@@ -481,7 +481,7 @@
 "jo" = (/obj/roof/thatch,/obj/structure/bed/wood,/turf/floor/dirt/dust,/area/caribbean/nomads/forest/Jungle)
 "jp" = (/obj/effect/spawner/mobspawner/snake,/turf/floor/dirt/jungledirt,/area/caribbean/tribes/swamp)
 "js" = (/obj/effect/spawner/mobspawner/frogpoisonous,/turf/floor/dirt/jungledirt,/area/caribbean/nomads/forest/Jungle)
-"jt" = (/obj/structure/supplybook,/obj/covers/roads/cobble,/turf/floor/beach/sand,/area/caribbean/nomads/forest/Jungle)
+"jt" = (/obj/covers/roads/cobble,/obj/structure/supplybook_colony,/turf/floor/beach/sand,/area/caribbean/nomads/forest/Jungle)
 "ju" = (/obj/structure/anthill,/turf/floor/grass/jungle,/area/caribbean/nomads/forest/Jungle)
 "jv" = (/obj/structure/anthill,/turf/floor/dirt/jungledirt,/area/caribbean/nomads/forest/Jungle)
 "jw" = (/mob/living/simple_animal/leech,/turf/floor/beach/water/jungle,/area/caribbean/nomads/forest/Jungle/river)
@@ -518,15 +518,44 @@
 "kb" = (/obj/effect/landmark{name = "JoinLatePirateCook"},/turf/floor/beach/sand,/area/caribbean/nomads/forest)
 "kc" = (/obj/effect/landmark{name = "JoinLatePirateSurgeon"},/turf/floor/beach/sand,/area/caribbean/nomads/forest)
 "kd" = (/obj/effect/landmark{name = "JoinLatePirateBoatswain"},/turf/floor/beach/sand,/area/caribbean/nomads/forest)
+"kY" = (/obj/structure/bed/chair/wood/red{dir = 8},/obj/covers/wood,/obj/covers/carpet/bluecarpet,/turf/floor/dirt,/area/caribbean/roofed)
+"lv" = (/obj/covers/wood,/obj/structure/bed/chair/wood{icon_state = "wooden_chair"; dir = 4},/obj/covers/carpet,/turf/floor/grass/jungle,/area/caribbean/roofed)
+"lT" = (/obj/covers/wood,/obj/item/weapon/paper_bin,/obj/structure/table/wood,/obj/covers/carpet,/turf/floor/grass/jungle,/area/caribbean/roofed)
+"mQ" = (/obj/covers/brick_wall,/turf/floor/dirt,/area/caribbean/roofed)
 "pV" = (/obj/covers/wood,/obj/item/weapon/paper{text = ""},/obj/item/weapon/pen,/obj/structure/table/wood,/turf/floor/grass/jungle,/area/caribbean/roofed)
+"qf" = (/obj/covers/wood,/obj/covers/carpet,/obj/covers/brick_wall,/turf/floor/dirt,/area/caribbean/roofed)
+"qL" = (/obj/covers/wood,/obj/covers/carpet,/obj/covers/carpet,/turf/floor/grass/jungle,/area/caribbean/roofed)
+"qY" = (/obj/covers/brick_wall,/obj/covers/wood,/turf/floor/dirt,/area/caribbean/roofed)
 "qZ" = (/obj/covers/brick_wall,/obj/structure/sign/bank{name = "Colonial Bank Sign"; desc = "A sign for the local colonial bank, property of Colonial Administration, and holders of the colonial treasury."},/turf/floor/grass/jungle,/area/caribbean/roofed)
 "tb" = (/obj/covers/brick_wall,/obj/structure/noticeboard{name = "Bank Notice Board"},/turf/floor/grass/jungle,/area/caribbean/roofed)
+"um" = (/obj/covers/wood,/obj/covers/wood,/turf/floor/dirt,/area/caribbean/roofed)
+"xj" = (/obj/covers/brick_wall,/obj/structure/sign/colony_gov,/turf/floor/grass/jungle,/area/caribbean/roofed)
 "xy" = (/obj/covers/brick_wall,/obj/structure/sign/custom/golden{name = "Colonial Bank"; desc = "This premises is property of Colonial Administration. In true British Fashion, keep your wealth secure and growing today! Colonial Bank is the only legal and registered financial entity within this colony."},/turf/floor/grass/jungle,/area/caribbean/roofed)
+"xV" = (/obj/structure/table/wood,/obj/covers/wood,/obj/covers/carpet/bluecarpet,/turf/floor/dirt,/area/caribbean/roofed)
+"ym" = (/obj/structure/window/classic/brickfull,/obj/covers/wood,/obj/structure/curtain/open/red,/turf/floor/dirt/jungledirt,/area/caribbean/roofed)
 "CD" = (/obj/covers/wood,/obj/structure/barricade/steel,/obj/structure/window/classic/reinforced,/obj/structure/curtain/leather/open,/turf/floor/dirt,/area/caribbean/roofed)
 "EB" = (/obj/covers/brick_wall,/obj/structure/sign/flag/uk,/turf/floor/grass/jungle,/area/caribbean/roofed)
 "EK" = (/obj/covers/wood,/obj/structure/barricade/steel,/obj/structure/window/classic/reinforced,/obj/structure/curtain/leather/open,/obj/structure/curtain/leather/open,/turf/floor/grass/jungle,/area/caribbean/roofed)
+"EU" = (/obj/covers/wood,/obj/structure/table/wood,/obj/covers/carpet,/turf/floor/grass/jungle,/area/caribbean/roofed)
+"FT" = (/obj/structure/bed/chair/wood/red{dir = 4},/obj/covers/wood,/obj/covers/carpet/bluecarpet,/turf/floor/dirt,/area/caribbean/roofed)
+"Gn" = (/obj/covers/wood,/obj/covers/carpet,/turf/floor/grass/jungle,/area/caribbean/roofed)
+"JF" = (/obj/structure/flag/british{layer = 6},/turf/floor/grass/jungle,/area/caribbean/nomads/forest/Jungle)
+"Kz" = (/obj/structure/window/classic/brickfull,/obj/covers/wood,/obj/structure/curtain/open/red,/turf/floor/dirt,/area/caribbean/roofed)
 "LC" = (/obj/covers/brick_wall,/obj/structure/sign/custom/golden{desc = "This premises is property of Colonial Administration. In true British Fashion, keep your wealth secure and growing today! Colonial Bank is the only legal and registered financial entity within this colony."; name = "Colonial Bank"},/turf/floor/grass/jungle,/area/caribbean/roofed)
+"Nn" = (/obj/covers/wood,/obj/covers/carpet,/obj/structure/simple_door/key_door/anyone/doubledoor/wood,/turf/floor/dirt,/area/caribbean/roofed)
+"NN" = (/obj/structure/window/classic/brickfull,/turf/floor/dirt,/area/caribbean/roofed)
+"NW" = (/obj/covers/roads/cobble,/obj/structure/barricade/stone_h,/obj/structure/sign/colony_military,/turf/floor/grass/jungle,/area/caribbean/nomads/forest/Jungle)
+"Pd" = (/obj/covers/wood,/obj/covers/carpet/bluecarpet,/turf/floor/dirt,/area/caribbean/roofed)
+"Ph" = (/obj/covers/wood,/obj/covers/wood,/turf/floor/dirt/jungledirt,/area/caribbean/roofed)
+"PM" = (/obj/covers/wood,/obj/item/weapon/paper,/obj/item/weapon/pen,/obj/structure/table/wood,/obj/covers/carpet,/turf/floor/grass/jungle,/area/caribbean/roofed)
+"PN" = (/obj/covers/brick_wall,/obj/covers/brick_wall,/turf/floor/grass/jungle,/area/caribbean/roofed)
+"PV" = (/obj/covers/wood,/obj/structure/closet/cabinet,/obj/covers/carpet,/turf/floor/grass/jungle,/area/caribbean/roofed)
+"Qm" = (/obj/structure/window/classic/brickfull,/obj/covers/wood,/turf/floor/dirt,/area/caribbean/roofed)
+"Qt" = (/obj/structure/bed/chair/wood/red{dir = 1},/obj/covers/wood,/obj/covers/carpet/bluecarpet,/turf/floor/dirt,/area/caribbean/roofed)
+"Rn" = (/obj/item/flashlight/lantern/on{anchored = 1; fuel = 2.14748e+009},/obj/covers/brick_wall,/obj/structure/simple_door/key_door/custom/doubledoor,/turf/floor/grass/jungle,/area/caribbean/roofed)
 "Rx" = (/obj/covers/wood,/obj/structure/filingcabinet/filingcabinet,/obj/structure/sign/flag/uk{pixel_y = -32},/turf/floor/grass/jungle,/area/caribbean/roofed)
+"WU" = (/obj/covers/brick_wall,/obj/covers/carpet,/turf/floor/grass/jungle,/area/caribbean/roofed)
+"Zk" = (/obj/structure/bed/chair/wood/red,/obj/covers/wood,/obj/covers/carpet/bluecarpet,/turf/floor/dirt,/area/caribbean/roofed)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -814,27 +843,27 @@ aiakahasaiaiaiaiaicLaiaiaiaiaiaraiaiaiagbDalaiapaiaiaialgngniBgnalalaiaiaiapaiai
 aiaiaqaiaiaiayayaiaiakayaiaiaiaiasalalalalalalalalalalgniBgngnalalakaiaiaiahaiaiaiaraiagaiahaiapaiaiaiapaiaiaiaiaiaiaiaiaiaiaiapaiaiaraiaiaiaiaiahaiayaiahaiaiaiaiahaiaiaiaiaiaraiasaiaiaiahaiaiagaiahaiaiasaiakakaiaiaiaiaiaiaiaiaiaiasaiaiaiaiahaiaiaiaiaiaiatatatatatatatbSbSajajajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZ
 aiasaiaiasasaiaiagaiaiahaiaiaiaiaialalalalalalalgngngngngnalalalalaiasaiaiaiaiapaiaiaiahaiaiaiaiaiaiaiaiaiaiaiaiaiagaiayaiahaiaiaiaiaiaiaiaiahahahaiaQaiaiaiagaiahaiaiaiaiasaiaiaoaoaiaiahaiaiaiaiaiaiaiahaiaiaiaiaiaoaiagaiasaiaiaiahaiarapaiaiaiaiarasaiagaiaiatatatatatatbSbSajajajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZ
 aiaiaiaiaiaiasaiaiaqagagaiaiaiaiaialalalalalgngniBiBgngnalalalalaiaiaiaiaiahaiaiaiaiaiaiaiaiaiaiaiasaiaiaiasaiaiaiaiaiapaiaiaiaiaiasaiahaiaiaiaiaoaiaiaiaiaiaiaiaiasaiaiaoaoaiaiaiaiaoapaiasaiaiaiaiagagaiaiaiaiaiasaiaibGakayaiaiagaiaiaiaiaiapaoaiaiaiaiaiahaiaiatatatatatbSbSbSajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
-aiaiasaiaiaoaoaiaibiaiaiaiaiaiaiasalalalgniBiBiBgngnalaoaialalaiaiaiaiaiaiaiasaiaiaiaiahaiaiaiaiaiaiaiahbHaiaiaiaiaiaiaiaiaiaiahaiaiaiaIayaybxagaiaiaiayaiaiaiagaiaiaibIbIbIbKbIbIababbIbIbIbIbIaiaiaiaiaiaiaiaiaiahaiaiaiaiaiaqaoaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiatatatatatbSbSbSajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
-aiaoaoaiaiaiaiaoapaiaiahaiaiaialalalalgniBgniBiBgnalalaiaiaialaiaiaiaiaiaiaiaiaiaiagaiaiahaiaiaiagagaiaiagagaiaiaiaiaiaiaiaiaiaiagagaiaiaiaiaiaiaiasaiaIaiaiaiaiaiaiagdvbLbMbNbObPbQbQbQbIbUbUbIaiaiaiaqaiaiagaiaiaiaiaiaiaiahahaiaiaiaiaiapaiahaiaiaiasaiaiaiaiaiatataiatatbSbSajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
-aiaiaiaoapaiaiaiaiaiaiaiaiaiaialalgniBiBgnalgngngnalalalaiaiaiaiapaiapahaiaiaiaoaiaiaraiaiaiaiaiaiagaiaiagaiayahaiaiaiasaiaiaiaiagaiaiaiahaIayaiaiaiaiaiaiaiaiaiahaiaidvbQbQbQbQbQbQbQbQbKbYbZbIaiaiahaqakayaiagaiaiaiaiaiaiaiaiaiaiakaiaiaiaiaiaiaiaiaiaiaiaiapaiaiataiataFajajajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
-aiaiaiaiaiaiaiaiaiaiaiaiaiaiaialgnjxgnalalalalalalalalalaiaiaiaiagaiaiaiaiaiaiaoaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiahaiaiaiaiaiaiaiaiaiaiaiaiaiaIahaiaiaiahaiaiagahdvbQbQbQbQbQbQbQbQcabQbQbIaiaiaiaiasaYaiaiaiapaiaiaiapaqbdaqaqasaoayaiaiaiaiaiasaiaiaiaiagagaiataiatatajajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
-aiaiaiaiaraiagaiahaiaiaiaialalalgngnalalaialalaiakaiaialahaiaiaiaiaiagaiahaiaiaiaibtapayaiapaiaiaiaiasaiaiaiaiaraiaiaiaiaiaiaiaiaiaibmayaiaiaiasaiaiaiagahaiaiaiaiaiaibIccbIcdbIbIbIbQbQbIbIbIbIaiaiapaiaiaiaiaiaiaiaiaiaiaoaqaJaqaqaiaiaiayayayagaiaiaiaiaiahaiaiaiaiatatatajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
-aiaCaiagaiaiahaoasaiaiapalalgngnalalalbdaiaiaiaiaiasaiaiaiaiapaiaiaiahaiaiaiahaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiasaiaiaiaiaiaiaiahaiaiaiaiaiaiaiaqaiagaiapaiaibIcfcgbIciciclbQbQbIcocpbIaiaiaiaiaiaiahaiahaiapaiaoaoaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaxaiatatatbSajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
-aiaiaiaiaiaiaiaiaialalalalgngnalalalalaiaiaiaiaiaiaiaiaiahaiaiaiaiaiaiaiaiaiaiaiakaiaiasaiaiaiaiaoahaqaiaiaiaiaQaiahaiahahaiayapaiaiaiaiagaiaiaiapaiaoaiaiapaiaiaiaiaibKcfcqbKcscvbKbQbQbKczczbIahaiaiaiaiaiaiaiagaiaiaicBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBaiataqatataiatbSajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
-aiaiakaiaiaiaiapaialalalgngnalalalaiaiaiaiaiaiaiaiaiaoaiaiasaiaiaiaiahaiaiaiaiaiaiaiaiaiaiaiaiaiaiaqaiaiaiapaiaiaiaiagagaiaiaiayaiapaiaiakaqaqaiahaiaiaiaiaiaiaiasaiaicCcfcfbIcvcvbIbQbQcEczczcFaiaiaoaiaxaiaiaiaiaiaicGcHcIcHcHcHcIcHcHcHcIcHcHcHcIcHcHcHcIcHcKaiatataFatatbWajajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
-aiaiaiaiaiahahahaialgniBgnalbfalaiaiaiaiaiapaiaiaiaiaiaiaiaiaiaiagaiaiahaiaiaiaiaiaiagaiaiaiaiaiaiaiaiaiaiaqaiaiaiaiaiaiaiaiayaIaiaiaiaiaiasaiaiaiaiaiakaiaiaiahaiaiaibIcfcMbIcvcvcNbQbQcPczczbIaiaiaiaiaiarahaiaiaiaicGcIcvcvcvcvcQcHcRbQbQbQbQcHcRbQcScVcWcIcZaiatatatatatbSbSbSajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
-aiaiaiaiahaialalalaliBgnalalalaiaiaiaiaiaiaiaiagaiaiaiaiaiaraoaiaiaiaiaiaiaiaiaiaiaqcXahahaiaiahaiaiaiaiaiasaiaiaiapaiahaOayayaiaicYaiaiaiaiaoaiahaiaiaiakahaiaJaiaiaibIdadabIdbddbIbQbQbKbIbIbIaiaiapaiaiaiaiaiaiaiaicGdecvdadgcvdhcIbQbQbQbQbQcIcRbQcWdjcWcHcKatatatatatatbSbSbSajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
-aiaiahaiaiaialalgniBalalalagaiaiaiaiaiapaiaiaiaiaiaiaiahaiaiaiaiaiaiaiaiaiaiaiaiakakaqaiasaiaiaiaiaiaraiaiaiakakaiaiasaiaiaiaiaiagaiaiaiaiaiaiaiaiaiaiaiapaiaiaiaiagaidTdTdTeKdTdTeKbQbQdldmdmbIaiaiaiaiaiaiaiaiaiaiaicGdecvdndocvbQdqbQcWdsbQbQdtbQbQbQbQbQcHcKaiatatataFatbSbSbSbSajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
-aiaiaiasaiaialgniBgnalalalahahaiaiaiasaqaqaiaiaiaiapaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaoaiaiaiaiaiaiaiaiaiaiaiaiaiaoaiaiaiaoagaiaiaiagaiaiapaiaiaiapaiaiaiaiaiaiayaiaiaiaidTdxdydDdEdFdTbQbQdGdmdmdHaiaiaiaiaiaiaiaiaiapaicGdecvdadIcvcQcIdJcVbQbQbQcIcRbQbQcfcfcHcKatatatatatatbSajajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
-aiaiaiakalalgniBgnalalalaiaiaoaiaiaiaiaiaiaiaiaiaiaiaiaiaiagaiaiaiaiaiaiapaiaraiaiaiaiaiaiaiaiaiaiahahaiaiaiaiaiaiaqaqaiaiaiaiaiaidKaiaiaiaiaiagahaiaiasaiakakaiaiaiaieKbQbQbQbQbQdTbQbQbKdmdmbIaiahaiaiasaiakakaiaiaicGcIcvcvcvcvcQcHcWcSbQbQbQcHcRbQbQcfcgcIcZatatatatatatbSbSbSajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
+aiaiasaiaiaoaoaiaibiaiaiaiaiaiaiasalalalgniBiBiBgngnalaoaialalaiaiaiaiaiaiaiasaiaiaiaiahaiaiaiaiaiaiaiahbHaiaiaiaiaiaiaiaiaiaiahaiaiaiaIayaybxagaiaiaiayaiaiaiagaiaiaibIbIbIbKbIbIababbIbIbIbIbIaiaiaiaiaiaiaiaiaiahaiaiaiaiaiaqcHcHKzKzKzmQKzKzKzPNcHaiaiaiaiaiaiatatatatatbSbSbSajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
+aiaoaoaiaiaiaiaoapaiaiahaiaiaialalalalgniBgniBiBgnalalaiaiaialaiaiaiaiaiaiaiaiaiaiagaiaiahaiaiaiagagaiaiagagaiaiaiaiaiaiaiaiaiaiagagaiaiaiaiaiaiaiasaiaIaiaiaiaiaiaiagdvbLbMbNbObPbQbQbQbIbUbUbIaiaiaiaqaiaiagaiaiaiaiaiaiaiahahKzumheheheheheheheheKzasaiaiaiaiaiatataiatatbSbSajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
+aiaiaiaoapaiaiaiaiaiaiaiaiaiaialalgniBiBgnalgngngnalalalaiaiaiaiapaiapahaiaiaiaoaiaiaraiaiaiaiaiaiagaiaiagaiayahaiaiaiasaiaiaiaiagaiaiaiahaIayaiaiaiaiaiaiaiaiaiahaiaidvbQbQbQbQbQbQbQbQbKbYbZbIaiaiahaqakayaiagaiaiaiaiaiaiaiaiKzhePdZkZkZkZkZkPdheKzaiaiaiaiapaiaiataiataFajajajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
+aiaiaiaiaiaiaiaiaiaiaiaiaiaiaialgnjxgnalalalalalalalalalaiaiaiaiagaiaiaiaiaiaiaoaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiahaiaiaiaiaiaiaiaiaiaiaiaiaiaIahaiaiaiahaiaiagahdvbQbQbQbQbQbQbQbQcabQbQbIaiaiaiaiasaYaiaiaiapaiaiaiapaqbdKzheFTxVxVxVxVxVkYheKzaiaiaiaiagagaiataiatatajajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
+aiaiaiaiaraiagaiahaiaiaiaialalalgngnalalaialalaiakaiaialahaiaiaiaiaiagaiahaiaiaiaibtapayaiapaiaiaiaiasaiaiaiaiaraiaiaiaiaiaiaiaiaiaibmayaiaiaiasaiaiaiagahaiaiaiaiaiaibIccbIcdbIbIbIbQbQbIbIbIbIaiaiapaiaiaiaiaiaiaiaiaiaiaoaqaJymPhFTxVxVxVxVxVkYheKzaiaiaiahaiaiaiaiatatatajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
+aiaCaiagaiaiahaoasaiaiapalalgngnalalalbdaiaiaiaiaiasaiaiaiaiapaiaiaiahaiaiaiahaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiasaiaiaiaiaiaiaiahaiaiaiaiaiaiaiaqaiagaiapaiaibIcfcgbIciciclbQbQbIcocpbIaiaiaiaiaiaiahaiahaiapaiaoaoaiaiNNhePdQtQtQtQtQtPdheQmaiaiaiaiaiaiaxaiatatatbSajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
+aiaiaiaiaiaiaiaiaialalalalgngnalalalalaiaiaiaiaiaiaiaiaiahaiaiaiaiaiaiaiaiaiaiaiakaiaiasaiaiaiaiaoahaqaiaiaiaiaQaiahaiahahaiayapaiaiaiaiagaiaiaiapaiaoaiaiapaiaiaiaiaibKcfcqbKcscvbKbQbQbKczczbIahaiaiaiaiaiaiaiagaiaiaicBcBcBcBmQheheheheheheheheheqYcBcBcBcBaiataqatataiatbSajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
+aiaiakaiaiaiaiapaialalalgngnalalalaiaiaiaiaiaiaiaiaiaoaiaiasaiaiaiaiahaiaiaiaiaiaiaiaiaiaiaiaiaiaiaqaiaiaiapaiaiaiaiagagaiaiaiayaiapaiaiakaqaqaiahaiaiaiaiaiaiaiasaiaicCcfcfbIcvcvbIbQbQcEczczcFaiaiaoaiaxaiaiaiaiaiaicGcHcIcHcHcHcIcHqfqfNnqfqfcHcIcHcHcHcIcHcKaiatataFatatbWajajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
+aiaiaiaiaiahahahaialgniBgnalbfalaiaiaiaiaiapaiaiaiaiaiaiaiaiaiaiagaiaiahaiaiaiaiaiaiagaiaiaiaiaiaiaiaiaiaiaqaiaiaiaiaiaiaiaiayaIaiaiaiaiaiasaiaiaiaiaiakaiaiaiahaiaiaibIcfcMbIcvcvcNbQbQcPczczbIaiaiaiaiaiarahaiaiaiaicGcIcvcvcvcvcQcHPVGnGnGnGncHcRbQcScVcWcIcZaiatatatatatbSbSbSajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
+aiaiaiaiahaialalalaliBgnalalalaiaiaiaiaiaiaiaiagaiaiaiaiaiaraoaiaiaiaiaiaiaiaiaiaiaqcXahahaiaiahaiaiaiaiaiasaiaiaiapaiahaOayayaiaicYaiaiaiaiaoaiahaiaiaiakahaiaJaiaiaibIdadabIdbddbIbQbQbKbIbIbIaiaiapaiaiaiaiaiaiaiaicGdecvdadgcvdhRnGnGnqLGnqLcIcRbQcWdjcWcHcKatatatatatatbSbSbSajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
+aiaiahaiaiaialalgniBalalalagaiaiaiaiaiapaiaiaiaiaiaiaiahaiaiaiaiaiaiaiaiaiaiaiaiakakaqaiasaiaiaiaiaiaraiaiaiakakaiaiasaiaiaiaiaiagaiaiaiaiaiaiaiaiaiaiaiapaiaiaiaiagaidTdTdTeKdTdTeKbQbQdldmdmbIaiaiaiaiaiaiaiaiaiaiaicGdecvdndocvbQdqGnEUdsGnqLdtbQbQbQbQbQcHcKaiatatataFatbSbSbSbSajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
+aiaiaiasaiaialgniBgnalalalahahaiaiaiasaqaqaiaiaiaiapaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaoaiaiaiaiaiaiaiaiaiaiaiaiaiaoaiaiaiaoagaiaiaiagaiaiapaiaiaiapaiaiaiaiaiaiayaiaiaiaidTdxdydDdEdFdTbQbQdGdmdmdHaiaiaiaiaiaiaiaiaiapaicGdecvdadIcvcQcIlvPMGnGnGncIcRbQbQcfcfcHcKatatatatatatbSajajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
+aiaiaiakalalgniBgnalalalaiaiaoaiaiaiaiaiaiaiaiaiaiaiaiaiaiagaiaiaiaiaiaiapaiaraiaiaiaiaiaiaiaiaiaiahahaiaiaiaiaiaiaqaqaiaiaiaiaiaidKaiaiaiaiaiagahaiaiasaiakakaiaiaiaieKbQbQbQbQbQdTbQbQbKdmdmbIaiahaiaiasaiakakaiaiaicGcIcvcvcvcvcQcHEUlTGnGnGncHcRbQbQcfcgcIcZatatatatatatbSbSbSajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
 apaiaiaialgniBgnalalalaiaiaiasaqagaiaiaiaiaiaiaiaiaiaiasaiaiaiaiagagaiaiaiaiaiaiaiaiaiapaiaiaiaiapaiaiaiaiaiaiaiaiapaiaiaiaiahaiaiaiaiagaiaiaiaiaiaiahaiaiaiaiaiaoaiaidTdLdMbQdNdRjhbQbQbIdUdWbIaiaiaiahaiaiayaiaiaoaicGcHcIcHcHcHcIcHcIcHdXcHcIcHcIcHcHcHcIcHcKatatatatatatbSbSajajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
-aiaiaiahalgniBalalalalaiaqaqaiaiaiaiaoaiaiaiaiaiaiahaiaiaiaiaiaiaiaiapaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiasaiaiaiiLaiaiaiaiasaiaiahahaiapaiaiagaiagagayaiaiaiaiasaiaiafdTdTdTdYdTdTeKbQbQbKbIbIbIaiagagaiaiaiaiaiasaiaiaidZdZdZdZdZeacIecbQbQbQeccIeddZdZdZdZdZataiatjijijidOdOdOeeeeeeeeeeeeeeegaZaZaZaZaZaZaZaZaZaZaZ
-aiagagalaliBgnalalalaiaiaqbdaiaiaiaiaiaiaiaiaiaiaiaiaiaiahaiaiaiapaiaqaqaiaiaiaiaiapaiaiaiaqaqaqaqasaiaCaiaiaiaiaiaiaiaiaiaiaiaiaiakahaiaiaiagaiaiaiaiaiaiaiaiahaiaiaibKbQbQbQehbQbQbQbQeiejbQbKaiaiaiaiaiayaiaiahaiaiaiaiaiaiaiaicGdecVcSbQcScVekcKaiaiaiaiaiaidPahjijijidSdSdSelelelelelelelemaZaZaZaZaZaZaZaZaZaZaZ
-aiaiaialgniBiBgnalalaiaoaiaiaiaiaiaiahahaiaiaiagaiahaiaiaiagaiaoaoaiaiaiaiaoaoaiaiaiaiaiaiaiaiaiahaiaiaiaiasaiaiaiaiaiaiasaiaiaiaiaiakaiaiaiapaiaiaqaiaiagaiaiaiaiapaiCDeneoepcWcWbQbQbQerbQbQabahaiaiasaietaiaiaiaiapaiaiapaiaiaicGdeecbQbQbQecekcKapaiaiaiaiaidPatjijijidVdVdVeueueueueueueuevaZaZaZaZaZaZaZaZaZaZaZ
-aiahaialgniBiBgnalalaiaiakakaiasaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaoaiaiaiaiaiaiaiaibiaiaiaiaoaraiaiaiakaiahaiaiaiapahahaiaiaiaiaiaiaiaiaiaiaiagaiahahaqakaiaiagaiaiaiaiaiEKbQbQbQbQbQewbQbQbQexeyabaiaiahaiaiaiaiaiaoaiaiahaiaiaiaiaicGdecVcSbQcScVekcKaiaiaiaiaiaiatakjijijidwjtajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
-aiaialalgniBiBgnalahaiaiaiaoaiaiaiapaiaiaiaiaiaiaiagaiaiaiaiapaiaiaiaiapaiaiaiaiaiaiaiaiaiaiaiaiaiasaiaiagagaiaiaiaiaiaiaiaiaiaiaiaiahaiaiaiaiaiaiaiasaoaiaiaiapaiaiaiabdJcWcWezbQbQbQdJeAcWezabagagaiaiaiaiaiasaiaiaiaiaiaiaiaiapcGcHbQbQbQbQbQcHcKaiaiaiaidPaiaiaijijijijijiajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
-aiaialalgniBiBgnalaiaiaiaiaiaiaiaiaiaiaiaiahahasaiaiaiaiaiaiaiaiaiaiaiaiaiasaiaiaiaiapaiaiaiaiaiaiaiaiaiagaiaiaiaraiaiaiapaiapaiaiagaiaiaiaragaiapaiaiaiaiaiaiaiaiaiaibKdJeAcWezbQbQbQdJcWcWezbKaiaiaiaiapaiaiahaiaiaiaiagaIaiaiaicGcHcHeBeCcIcHcHcKaiapaiaiaiayaiaieIjijiajajajajajaZaZaZaZajajaZaZaZaZaZaZaZaZaZaZaZ
-alalalalgniBiBgnalalaiaqaiaiaiapaiaiaiaiapaiaiaiaiaiaiaiaiaiasaiaiaiahaiaiaiahaiaiaiaiaiagaiahaiapaiaiaiapaiaiaiaiaiaiaoaiakaiahaiaiaiaiaiaiaiagaiaiaiayahaiahaiapaiaibIbIeDeDbIeEeFeEbIeDeDbIbIaiaqaiaiagaiaiaiaiapaiaiaiaiaiahaieGdZdZeHeIeHdZdZeGaiaiaidPaiaiaiatjijijiajajajajaZaZaZaZajajajaZaZaZaZaZaZaZaZaZaZaZ
+aiaiaiahalgniBalalalalaiaqaqaiaiaiaiaoaiaiaiaiaiaiahaiaiaiaiaiaiaiaiapaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiasaiaiaiiLaiaiaiaiasaiaiahahaiapaiaiagaiagagayaiaiaiaiasaiaiafdTdTdTdYdTdTeKbQbQbKbIbIbIaiagagaiaiaiaiaiasaiaiaidZdZdZdZdZeacIecGnqLGneccIeddZdZdZdZdZataiatjijijidOdOdOeeeeeeeeeeeeeeegaZaZaZaZaZaZaZaZaZaZaZ
+aiagagalaliBgnalalalaiaiaqbdaiaiaiaiaiaiaiaiaiaiaiaiaiaiahaiaiaiapaiaqaqaiaiaiaiaiapaiaiaiaqaqaqaqasaiaCaiaiaiaiaiaiaiaiaiaiaiaiaiakahaiaiaiagaiaiaiaiaiaiaiaiahaiaiaibKbQbQbQehbQbQbQbQeiejbQbKaiaiaiaiaiayaiaiahaiaiaiaiaiaiaiaicGdePMlTqLlTPMekcKaiaiaiaiaiaidPahjijijidSdSdSelelelelelelelemaZaZaZaZaZaZaZaZaZaZaZ
+aiaiaialgniBiBgnalalaiaoaiaiaiaiaiaiahahaiaiaiagaiahaiaiaiagaiaoaoaiaiaiaiaoaoaiaiaiaiaiaiaiaiaiahaiaiaiaiasaiaiaiaiaiaiasaiaiaiaiaiakaiaiaiapaiaiaqaiaiagaiaiaiaiapaiCDeneoepcWcWbQbQbQerbQbQabahaiaiasaietaiaiaiaiapaiaiapaiaiaicGdeecGnqLGnecekcKapaiaiaiaiaidPatjijijidVdVdVeueueueueueueuevaZaZaZaZaZaZaZaZaZaZaZ
+aiahaialgniBiBgnalalaiaiakakaiasaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaoaiaiaiaiaiaiaiaibiaiaiaiaoaraiaiaiakaiahaiaiaiapahahaiaiaiaiaiaiaiaiaiaiaiagaiahahaqakaiaiagaiaiaiaiaiEKbQbQbQbQbQewbQbQbQexeyabaiaiahaiaiaiaiaiaoaiaiahaiaiaiaiaicGdePMlTqLlTPMekcKaiaiaiaiaiaiatakjijijidwjtajajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
+aiaialalgniBiBgnalahaiaiaiaoaiaiaiapaiaiaiaiaiaiaiagaiaiaiaiapaiaiaiaiapaiaiaiaiaiaiaiaiaiaiaiaiaiasaiaiagagaiaiaiaiaiaiaiaiaiaiaiaiahaiaiaiaiaiaiaiasaoaiaiaiapaiaiaiabdJcWcWezbQbQbQdJeAcWezabagagaiaiaiaiaiasaiaiaiaiaiaiaiaiapcGcHGnGnqLGnGnWUcKaiaiaiaidPaiaiaijijijijijiajajajaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZaZ
+aiaialalgniBiBgnalaiaiaiaiaiaiaiaiaiaiaiaiahahasaiaiaiaiaiaiaiaiaiaiaiaiaiasaiaiaiaiapaiaiaiaiaiaiaiaiaiagaiaiaiaraiaiaiapaiapaiaiagaiaiaiaragaiapaiaiaiaiaiaiaiaiaiaibKdJeAcWezbQbQbQdJcWcWezbKaiaiaiaiapaiaiahaiaiaiaiagaIaiaiaicGcHxjeBeCcIxjcHcKaiapaiaiaiayaiaieIjijiajajajajajaZaZaZaZajajaZaZaZaZaZaZaZaZaZaZaZ
+alalalalgniBiBgnalalaiaqaiaiaiapaiaiaiaiapaiaiaiaiaiaiaiaiaiasaiaiaiahaiaiaiahaiaiaiaiaiagaiahaiapaiaiaiapaiaiaiaiaiaiaoaiakaiahaiaiaiaiaiaiaiagaiaiaiayahaiahaiapaiaibIbIeDeDbIeEeFeEbIeDeDbIbIaiaqaiaiagaiaiaiaiapaiaiaiaiaiahaiJFdZdZeHeIeHdZdZJFaiaiaidPaiaiaiatjijijiajajajajaZaZaZaZajajajaZaZaZaZaZaZaZaZaZaZaZ
 algngngngniBiBgnalalasaiaiaiaiaiaiaiaiaiaiaiaiakaiapaiaiaiaoaiaqaiasaiaiaiaiakahasaiaiayaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiasaiaiagagaiapaiahaiaiaiaiaiayaQaiaiaiaiaiaiaiaiaiaiaieIeIeIaiaiaiaiaiahaqakaiaiagaiaiaiaiaieJeLeMaiaiaiaiaiaieIeIeIaiftaGaifqaBaifgfgatatjijijibSajajajajajajajajajajajaZaZaZaZaZaZaZaZaZaZ
 gniBgniBiBgngngnalalaiapaiapaiaiaiaqaqaqaqasaiaiaiaiaiaiaiaiasaiaiaiaiahaiaiaiaqaiaiaiaiaiaiaiaiaiaiaOayaiaiakaibxaiaiaiaiaiaiaiagaiaiaiaiaiaiaiahaiaiaiaoaiaiaiaiagaiaiaiaiaiaieIeIeIaiaiaiaiaiaiaiasaoaiaiaiapaiaiaieNeNeNaoaiaTaiaiaieIeIeIaiftjlaiazfoaifgfgaiaijijijiatatbSbSajajajbSbSbSajajajajajaZaZaZaZaZaZaZ
 iBgngngngnalalalalalaiaibvaiaiaraiaiaiaiahaiaiaiaiaiaiaiagayaiaiasaiaiaiaiaiasaiaoaiasaiaiagaiaiaiaiaiaiahaiaiaiaiaiahaiapaiaiaiapaiahaiaiapaiaiaiaiaiasaiaiaiaiaiaiapaiaiagaiaieIeIeIaiaiagaiaiapaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiavfQeIeIeIaiePaiaiaiaiaiaiaiaiaieIeIjiatatbSbSbSbWbSbSbSbSbSbSbSajajajajajaZaZaZaZ
@@ -849,7 +878,7 @@ algnalalalahaiaiaiaiagagaiaIaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaialalalalal
 alalgnalaiaiaiaiaiaiaiaraiaiagaiaiaiaiapaiaiagaiaialalalaiaialaialalalalalalalalalaiapaiapaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiasaiaiaiaiaiaiaiaiapaiapaiaiaiayaiaiaiaifycHbQbQbQbQbQbQbQbQdQfXhqhrdQcWdkfyaiaiaiagaiaieIeIeIfQaiagaiapaiahaiaiahaiapaiaiapaiaiaiaiaiaiaiaiaiaiaiatatataFaFatbSbSbSbSajajajajaZaZaZaZ
 alalgngngnalaiaiaiaiaiaiaiaiayayaiaiahaialaiaiaiaiaialaiaiaiaiaialalalalalalalalalaiaiasaqaqaiaiaiaiaiapaiaiaiaqaqaqaqaiaiaiaiaiaiaiahaiaiayaiakaiasaiaiaiagayaUayagaiaifycHbQbQbQbQbQbQbQbQdQgedQdQdQezcHfyaiaiaiaiaiaieIeIeIaiagaifyfyfyfYfYfYfyfyfyfyfyfyfyfyfyahaiahaiapaiaiaiatatatatatatbSbSbSajajajaZaZaZaZaZaZ
 aialgniBiBgnalaiaiaiaiaiaiaiaiaiayaiaiaialalaiaiaialalalalalalalalalalalalalalaoaiaiaiaiaiaiagaiaiagaiaiaiaiaiaiaiaiasaiaiaiaiagagaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiasaiaiaifycHcHcHcHdkcHcHcHcHfztbfAfBfAcHcHfyaiahaiaiaieGeIeIeIeGaiaifycHcHfIfIfIcHcHcHcHcHcHcHcHfyapaiaiaiahaiaiaoatatatatatatbSbSajajajaZaZaZaZaZaZaZ
-aialalgniBgnalaiapaiaiaiapaiahaiaiaialalalalalalalgngngngngngnalalalalalalalaiaiaoapaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiahaiaiaiaiaiayakaiaoaiaiaiaiagagagaiaiahaiaiaiaifycHfKfLfMfNfLfKcHcWbQbQbQfObQcRcHfyaiaiaiaifCfDfCfGfCfDfCfDfCcHbQbQbQbQcQcIfTfUbQfVfVcIfEaiaiaiatatataFatatatatatatatbSbSbSajajaZaZaZaZaZaZaZ
+aialalgniBgnalaiapaiaiaiapaiahaiaiaialalalalalalalgngngngngngnalalalalalalalaiaiaoapaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiaiahaiaiaiaiaiayakaiaoaiaiaiaiagagagaiaiahaiaiaiaifycHfKfLfMfNfLfKcHcWbQbQbQfObQcRcHfyaiaiaiaifCfDNWfGfCfDfCfDfCcHbQbQbQbQcQcIfTfUbQfVfVcIfEaiaiaiatatataFatatatatatatatbSbSbSajajaZaZaZaZaZaZaZ
 aiakalaliBgnalaiaiaiapaiaiaiaiaialalalgngngngnalgniBiBgngngngnalalalalgngnalalaiaiaiapaiaiaiaiasaiaiaialaiaiaiaiaiagagaiaiagaiaiasaiayaiaiaoaiaiahaiaiaiaiagaiaiaiaiaiaifycHfKfLfLfLfLfKcHfWbQbQbQbQbQbQcHfyaiahaiaifFeIeIeIeIeIeIeIfHcIbQenfZbQbQcHbQbQbQbQbQcHfyaiaiaiatatatatatatatatatatatajajajajajaZaZaZaZaZaZaZ
 aiaialalgniBgnalahaiaiaiaialaialalgngngniBiBiBgniBgngniBgngniBalalgnalgngngnalalaiaiaiaiaialalalalalalalalaiaiaiaiaiaiaoaiaiaiahaiaoaiaiayaiaiaiaiaiaiaiaiaiaiaTaiahaiaifycHfKfLfLfLfLfLgabQbQbQbQcWgccWcHfyaiaiaiaifCeIeIeIeIeIeIeIfHggbQghezbQbQgibQbQbQenbQcHfyaiaiaiatatatatatatatatatatatajajajajajajaZaZaZaZaZaZ
 aiaiaialalgniBgnalalasaiaialalalgniBiBiBgngngnaleYalalgnalalgniBiBgngngngnalalagaiahaiaiaiaialaiaiaialalalalalalaiaiaiaiaiaiaiaiagaiaiaiaiaiaiagaiaiaiapaiaiaiahaiaiaiaifycHfKfLfLfLfLfKcHcQdhcQRxcSpVgjcHfyaiagaiaifFeIeIeIeIeIeIeIfHgkbQcWcWbQbQcHbQbQbQghezcHfyaoaiahatataiaiaiatatataFatatbSbSajajajajajajaZaZaZaZ
