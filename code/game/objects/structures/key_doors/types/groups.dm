@@ -788,3 +788,17 @@
 
 /datum/keyslot/tribal
 	code = 666999
+
+// Jungle Colony
+
+/obj/item/weapon/key/juniorofficer
+	name = "Junior Officer's key"
+	code = 11912
+
+/obj/item/weapon/key/seniorofficer
+	name = "Senior Officer's key"
+	code = 11983
+
+/obj/item/weapon/key/colonel
+	name = "Colonel's key"
+	code = 11874

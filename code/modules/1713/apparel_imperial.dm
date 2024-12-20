@@ -763,10 +763,22 @@
 	item_state = "tricorne_british2"
 
 /obj/item/clothing/head/bicorne_british_soldier
-	name = "black bicorne"
-	desc = "A black bicorne, commonly used by the armed forces."
+	name = "British soldier's tricorne"
+	desc = "A black bicorne, commonly used by british infantrymen"
 	icon_state = "tricorne_british_soldier"
 	item_state = "tricorne_british_soldier"
+
+/obj/item/clothing/head/bicorne_british_officer
+	name = "British officer's tricorne"
+	desc = "A black bicorne lined with a bright white colour, commonly worn among british officers."
+	icon_state = "tricorne_british_officer"
+	item_state = "tricorne_british_officer"
+
+/obj/item/clothing/head/bicorne_british_commander
+	name = "British commanding officer's tricorne"
+	desc = "A black bicorne, lined with an elegant gold, commonly worn among british commanding officers."
+	icon_state = "tricorne_british_commander"
+	item_state = "tricorne_british_commander"
 
 /obj/item/clothing/accessory/armband/british_scarf
 	name = "blue scarf"

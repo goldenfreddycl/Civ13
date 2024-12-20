@@ -23,6 +23,11 @@
 	min_positions = 1
 	max_positions = 1
 
+// /datum/job/var/is_officer = FALSE
+// /datum/job/var/is_squad_leader = FALSE
+// /datum/job/var/is_commander = FALSE
+// /datum/job/var/is_petty_commander = FALSE
+
 /datum/job/civilian/governor/equip(var/mob/living/human/H)
 	if (!H)	return FALSE
 //shoes
@@ -38,7 +43,17 @@
 	H.equip_to_slot_or_del(new /obj/item/weapon/key/civ/hall(H), slot_l_store)
 	H.equip_to_slot_or_del(new /obj/item/weapon/material/sword/spadroon(H), slot_belt)
 //	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
-	H.add_note("Role", "You are a <b>[title]</b>, the leader of this colony. Organize your men and build a village!")
+	H.add_note("Role", "You are the <b>[title]</b>, the leader of this colony. Organize your men and build a village for King and Country!")
+	H.add_note("Chain of Command", "Though you are the recognised leader of this colony and therefore have a say in all colonial affairs, your authority is not absolute! You must coordinate with the Banker, Colonel, Merchants, Priest and other workers in order to build the most properous colony!")
+	H.add_note("The Bank", "The Bank is a property shared by your Colonial Administration and the Bank of England. The Banker has a say in where our colony's money goes and can bar you from using it if they believe your ations are posing a theat to the colony's wealth. Coordinate and negotiate with the banker!")
+	H.add_note("Colony Security", "Your colony has been entrusted with the 42nd King's Fusiliers Regiment of Leicester, led by this colony's Colonel. The Colonel has a say in coordination of the troops as it is, after all, their regiment. Ensure their loyalty if you want the law to be upheld!")
+	H.add_note("Construction & Architecture", "The Colony Architect is in charge of building projects and all of the colony's building material. The Carpenters are in charge of using those materials to complete these projects. If you want something built, consult the Architect")
+	H.add_note("Colonial Council", "Your government office has a meeting room where you and other Commanders (The Banker, Colonel, and the Architect) and anyone else you feel like inviting to negotiate on matters and collectively make decisions.")
+	H.add_note("Your Direct Command", "All workers who are not under the Banker, Colonel or Architect are directly under your command, and form part of your General Department.")
+	H.add_note("The LAW", "His Majesty's Colonial Administration has established the official law of this colony which cannot be changed. You may add laws, but they require approval of Colonial Administration.")
+	H.add_note("Merchants", "Merchants are your colony's beating heart. They are independent contractors who are being paid wages (just like everyone else) to make your colony money. Make sure they don't steal or pocket profits!")
+	H.add_note("Economy and Wages", "Everyone is being paid wages according to the Official Colonial Wage Policy. If people aren't paid, they will not work! The Banker is in charge of paying wages, but you are also in charge of making sure the Banker pays them in the first place, as it is their job. You are allowed to dock someone's wages if you believe they are neglecting their duty, give someone a pay rise, or a pay cut, but only for appropriate reasons, and the Banker has a say in it!")
+
 	H.setStat("strength", STAT_MEDIUM_HIGH)
 	H.setStat("crafting", STAT_NORMAL)
 	H.setStat("rifle", STAT_NORMAL)
@@ -102,9 +117,12 @@
 	H.equip_to_slot_or_del(new /obj/item/weapon/key/civ/hall(H), slot_l_hand)
 	H.equip_to_slot_or_del(new/obj/item/weapon/storage/belt/leather(H), slot_belt)
 	H.equip_to_slot_or_del(new /obj/item/weapon/attachment/scope/adjustable/binoculars(H), slot_r_store)
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
+	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_l_store)
 
-	H.add_note("Role", "You are an <b>Architect</b>. Your job is to organize and lead the <b>Carpenters</b>, and develop the colony with your city planning skills!")
+	H.add_note("Role", "You are the <b>Architect</b>. You are directly in command of all <b>Carpenters</b> and have a say in all colonial building projects. Negotiate with the Governor and build the most prosperous colony!")
+	H.add_note("Command", "You are directly in command of all carpentrs and you also are in charge of all the colony's building material. When it comes to building projects, you have a say, and you must coordinate with your Governor in order to build the best colony. if the Governor wants something built, he must ask you first.")
+	H.add_note("You & The Governor", "You are directly in command of all carpentrs and you also are in charge of all the colony's building material. When it comes to building projects, you have a say, and you must coordinate with your Governor in order to build the best colony. if the Governor wants something built, he must ask you first.")
+
 	H.setStat("strength", STAT_MEDIUM_HIGH)
 	H.setStat("crafting", STAT_VERY_HIGH)
 	H.setStat("rifle", STAT_MEDIUM_LOW)
@@ -172,9 +190,11 @@
 			H.equip_to_slot_or_del(new /obj/item/clothing/under/civf3(H), slot_w_uniform)
 	
 	H.add_note("Role", " You are a <b>[title]</b>, the leader of this colony's funds.")
-	H.add_note("Command", " You answer directly to the Colonial Administration. Bank Tellers are your subordinates. The bank is property of Central Administration and YOU are the trusted manager.")
+	H.add_note("Command", " You answer directly to the Colonial Administration. Bank Tellers are your subordinates. The bank is a property shared between Colonial Administration and the Bank of England, and YOU are the trusted manager.")
 	H.add_note("You & the Governor", "The government isn't your Boss, nor are you his, however when it comes to colonial funds, you have equal authority and therefore a say. You must make sure the Governor does not waste our funds!")
-	H.add_note("Job Summary", "• Make sure the Governor doesnt waste our money. • Complain to CA if they do. • Manage the bank. • Follow the guidelines, tax people, pay their wages. • Manage your subordinates.")
+	H.add_note("Economy and Wages", "Everyone is being paid a wage according to His Majesty's Colonial Administration's law. The Governor may dock someone's pay if they believe that individual is neglecting their duty, give someone a pay rise, or give someone a pay cut, but you must approve any of such actions. It is YOUR job to pay everyone's wages in the end, and the Governor can enforce the law upon you if you are neglecting this duty. Remember, if no one gets paid, everyone gets angry!")
+	H.add_note("The Colony's Funds", "The Colony's Funds are not YOURS but nor are they the Governor's. Both of you have a say in what happend to it and what it is spent on.")
+	H.add_note("Job Summary", "• Make sure the Governor doesnt waste our money. • Complain to CA if they do. • Manage the bank. • Follow the guidelines, tax people, pay their wages. • Manage your subordinates. • Keep tabs on the flow of money in and out of the bank.")
 	H.setStat("strength", STAT_MEDIUM_HIGH)
 	H.setStat("crafting", STAT_NORMAL)
 	H.setStat("rifle", STAT_NORMAL)
@@ -220,11 +240,14 @@
 //head
 	if (map.ordinal_age <= 4)
 		H.equip_to_slot_or_del(new /obj/item/clothing/head/powdered_wig(H), slot_head)
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
+	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_l_store)
+	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_l_store)
 	H.equip_to_slot_or_del(new /obj/item/weapon/key/civ/hall(H), slot_r_store)
 
-	H.add_note("Role", "You are a <b>[title]</b>, a teller who decided to move in to the new colony to get rich. Keep your bank secure and jew the people out of their money!")
+	H.add_note("Role", "You are a <b>[title]</b>, a teller who works under the Banker and helps them run the place! If there is no Banker to lead, then you and other bankers have equal say with the Governor on what happens with the colonial funds. Remember that we are here to keep the COLONY rich, not ourselves! You work under the Bank of England, so whatever they say, goes.")
+	H.add_note("Command", "You answer directly to the Banker. If there is no Banker, you answer to the Bank of England for higher authority decisions and the governor for colonial projects, acts, etcetera. Remember that if there is no Banker, you and other Tellers have equal say with the Governor in what happens with the colonial funds")
+	H.add_note("You & the Banker", "The Banker is the manager, and is therefore your boss. Whatever he says, goes. However, if you believe that the Banker is acting out of protocol, or is overstepping his authority, either notify the Governor or send a letter of complaint to the Bank of England's Jungle Colony Branch.")
+	H.add_note("Job Summary", "• Make sure no one breaks into the bank or causes a ruckus on the premises. • Listen to your Banker and the Bank of England. • Manage the bank. • Consult the Banker regarding salary payments and taxes. • Accept deposits and withdrawals. Either designate a safe for every customer or keep tabs on who has how much money in the bank. Trust in the Bank is absolutely paramount. If people think you are misusing their money, they will complain and boycott you!!")
 	H.setStat("strength", STAT_NORMAL)
 	H.setStat("crafting", STAT_MEDIUM_HIGH)
 	H.setStat("rifle", STAT_MEDIUM_LOW)
@@ -237,15 +260,15 @@
 
 	return TRUE
 
-/datum/job/civilian/officer
-	title = "Town Guard Officer"
-	en_meaning = "Colony Security Leader"
-	rank_abbreviation = "Officer"
+/datum/job/civilian/officerjunior
+	title = "Colonial Guard Junior Officer"
+	en_meaning = "Junior Officer"
+	rank_abbreviation = ""
 
 	spawn_location = "JoinLateCivC"
 
 	is_officer = TRUE
-	is_commander = TRUE
+	is_commander = FALSE
 	whitelisted = TRUE
 	is_1713 = TRUE
 
@@ -253,7 +276,7 @@
 	min_positions = 1
 	max_positions = 5
 
-/datum/job/civilian/officer/equip(var/mob/living/human/H)
+/datum/job/civilian/officerjunior/equip(var/mob/living/human/H)
 	if (!H)	return FALSE
 
 //shoes
@@ -261,14 +284,14 @@
 //clothes
 	H.equip_to_slot_or_del(new /obj/item/clothing/under/civ2(H), slot_w_uniform)
 //jacket
-	H.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/jacket/british_soldier(H), slot_wear_suit)
+	H.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/jacket/redcoat_officerjunior(H), slot_wear_suit)
 
 //head
-	H.equip_to_slot_or_del(new /obj/item/clothing/head/bicorne_british_soldier(H), slot_head)
+	H.equip_to_slot_or_del(new /obj/item/clothing/head/bicorne_british_officer(H), slot_head)
 
 	H.equip_to_slot_or_del(new /obj/item/weapon/melee/classic_baton(H), slot_belt)
 
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
+	H.equip_to_slot_or_del(new /obj/item/weapon/key/juniorofficer(H), slot_l_store)
 	H.equip_to_slot_or_del(new /obj/item/weapon/key/civ/hall(H), slot_r_store)
 	var/obj/item/clothing/accessory/storage/webbing/filled_a = new /obj/item/clothing/accessory/storage/webbing(null)
 	filled_a.attackby(new/obj/item/ammo_casing/musketball, H)
@@ -277,7 +300,27 @@
 	filled_a.attackby(new/obj/item/ammo_casing/musketball, H)
 	var/obj/item/clothing/under/uniform = H.w_uniform
 	uniform.attackby(filled_a, H)
-	H.add_note("Role", "You are a <b>[title]</b>, a veteran of past wars. Your job is to organize the <b>Veterans</b> and keep the colonists safe, reporting to the <b>Governor</b>.")
+	var/rank = title
+	var/randtitle = rand(1,5)
+	if (randtitle == 1)
+		H.title = "Ens. "
+		rank = "Ensign"
+	else if (randtitle == 2)
+		H.title = "2nd Lt. "
+		rank = "Second Lieutenant"
+	else if (randtitle == 3)
+		H.title = "1st Lt. "
+		rank = "First Lieutenant"
+	else if (randtitle == 4)
+		H.title = "Cpt. "
+		rank = "Captain"
+	else if (randtitle == 3)
+		H.title = "Adj. "
+		rank = "Adjutant"
+	H.add_note("Role", "You are a [title], bearing the rank of <b>[rank]</b>. Your job is to organize the <b>Colonial Guards</b> and keep the colonists safe, reporting to the <b>Senior Officers</b> and your Commanding Officer, the <b>Colonel</b>.")
+	H.add_note("Command", "You answer directly to your <b>Senior Officers</b> and, if necessary, your Commanding Officer the <b>Colonel</b>. Remember that your CO's word overrules those of Senior Officers.")
+	H.add_note("You & Senior Officers", "Your Senior Officers are your first commanders, meaning they are the first people you answer to. Your Commanding Officer can be communicated with for more pressing matters. If you believe your Senior Officers are overstepping their authority or abusing their position, you may report them to the Commanding Officer.")
+	H.add_note("Job Summary", "• Keep Colonial Guards organised. • Listen to your Senior Officers (SO) and your Commanding Officer (CO). COs overrule SOs. • Manage the barracks. • Consult your Jailer for sentences. • Listen to Civilian complaints against your subordinates and act accordingly. Trust in the Military is paramount!")
 	H.setStat("strength", STAT_MEDIUM_HIGH)
 	H.setStat("crafting", STAT_NORMAL)
 	H.setStat("rifle", STAT_MEDIUM_HIGH)
@@ -290,6 +333,129 @@
 
 	return TRUE
 
+/datum/job/civilian/officersenior
+	title = "Colonial Guard Senior Officer"
+	en_meaning = "Senior Officer"
+	rank_abbreviation = ""
+
+	spawn_location = "JoinLateCivC"
+
+	is_officer = TRUE
+	is_commander = FALSE
+	is_petty_commander = TRUE
+	whitelisted = TRUE
+	is_1713 = TRUE
+
+
+	min_positions = 1
+	max_positions = 3
+
+/datum/job/civilian/officersenior/equip(var/mob/living/human/H)
+	if (!H)	return FALSE
+
+//shoes
+	H.equip_to_slot_or_del(new /obj/item/clothing/shoes/blackboots(H), slot_shoes)
+//clothes
+	H.equip_to_slot_or_del(new /obj/item/clothing/under/civ2(H), slot_w_uniform)
+//jacket
+	H.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/jacket/redcoat_officersenior(H), slot_wear_suit)
+
+//head
+	H.equip_to_slot_or_del(new /obj/item/clothing/head/bicorne_british_officer(H), slot_head)
+
+	H.equip_to_slot_or_del(new /obj/item/weapon/melee/classic_baton(H), slot_belt)
+
+	H.equip_to_slot_or_del(new /obj/item/weapon/key/seniorofficer(H), slot_l_store)
+	H.equip_to_slot_or_del(new /obj/item/weapon/key/civ/hall(H), slot_r_store)
+	var/obj/item/clothing/accessory/storage/webbing/filled_a = new /obj/item/clothing/accessory/storage/webbing(null)
+	filled_a.attackby(new/obj/item/ammo_casing/musketball, H)
+	filled_a.attackby(new/obj/item/ammo_casing/musketball, H)
+	filled_a.attackby(new/obj/item/ammo_casing/musketball, H)
+	filled_a.attackby(new/obj/item/ammo_casing/musketball, H)
+	var/obj/item/clothing/under/uniform = H.w_uniform
+	uniform.attackby(filled_a, H)
+	var/rank = title
+	var/randtitle = rand(1,2)
+	if (randtitle == 1)
+		H.title = "Maj. "
+		rank = "Major"
+	else if (randtitle == 2)
+		H.title = "Lt-Col. "
+		rank = "Lieutenant Colonel"
+
+	H.add_note("Role", "You are a [title], bearing the rank of <b>[rank]</b>. Your job is to organize the <b>Colonial Guards</b> and <b>Senior Officers</b> in order to help keep the colony safe!")
+	H.add_note("Command", "You answer directly to the <b>Colonel</b>. Their word overrules yours. Your word overrules that of <b>Junior Officers</b> and <b>Colonial Guards</b>")
+	H.add_note("You & Junior Officers", "You and Junior Officers must work together to keep the troops organised. They are your subordinates.")
+	H.add_note("Job Summary", "• Keep Colonial Guards and Junior Officers organised. • Listen to your Commanding Officer (CO). • Manage the barracks. • Consult your Jailer for sentences. • Listen to Civilian complaints against your subordinates and act accordingly. Trust in the Military is paramount!")
+	H.setStat("strength", STAT_MEDIUM_HIGH)
+	H.setStat("crafting", STAT_NORMAL)
+	H.setStat("rifle", STAT_MEDIUM_HIGH)
+	H.setStat("dexterity", STAT_NORMAL)
+	H.setStat("swords", STAT_MEDIUM_HIGH)
+	H.setStat("pistol", STAT_MEDIUM_HIGH)
+	H.setStat("bows", STAT_NORMAL)
+	H.setStat("medical", STAT_NORMAL)
+
+
+	return TRUE
+
+/datum/job/civilian/colonel
+	title = "Colonial Guard Colonel"
+	en_meaning = "Guard Commander"
+	rank_abbreviation = "Col. "
+
+	spawn_location = "JoinLateCivC"
+
+	is_officer = TRUE
+	is_commander = TRUE
+	whitelisted = TRUE
+	is_1713 = TRUE
+
+
+	min_positions = 1
+	max_positions = 3
+
+/datum/job/civilian/colonel/equip(var/mob/living/human/H)
+	if (!H)	return FALSE
+
+//shoes
+	H.equip_to_slot_or_del(new /obj/item/clothing/shoes/blackboots(H), slot_shoes)
+//clothes
+	H.equip_to_slot_or_del(new /obj/item/clothing/under/civ2(H), slot_w_uniform)
+//jacket
+	H.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/jacket/redcoat_commander(H), slot_wear_suit)
+
+//head
+	H.equip_to_slot_or_del(new /obj/item/clothing/head/bicorne_british_commander(H), slot_head)
+
+	H.equip_to_slot_or_del(new /obj/item/weapon/melee/classic_baton(H), slot_belt)
+
+	H.equip_to_slot_or_del(new /obj/item/weapon/key/colonel(H), slot_l_store)
+	H.equip_to_slot_or_del(new /obj/item/weapon/key/civ/hall(H), slot_r_store)
+	var/obj/item/clothing/accessory/storage/webbing/filled_a = new /obj/item/clothing/accessory/storage/webbing(null)
+	filled_a.attackby(new/obj/item/ammo_casing/musketball, H)
+	filled_a.attackby(new/obj/item/ammo_casing/musketball, H)
+	filled_a.attackby(new/obj/item/ammo_casing/musketball, H)
+	filled_a.attackby(new/obj/item/ammo_casing/musketball, H)
+	var/obj/item/clothing/under/uniform = H.w_uniform
+	uniform.attackby(filled_a, H)
+	var/rank = "Colonel"
+
+	H.add_note("Role", "You are the [title], bearing the rank of <b>[rank]</b>. Your job is to organize the <b>Colonial Guards</b> and <b>Senior Officers</b> in order to help keep the colony safe!")
+	H.add_note("Command", "You answer directly to the <b>Colonel</b>. Their word overrules yours. Your word overrules that of <b>Junior Officers</b> and <b>Colonial Guards</b>")
+	H.add_note("You & Junior Officers", "You and Junior Officers must work together to keep the troops organised. They are your subordinates.")
+	H.add_note("Job Summary", "• Keep Colonial Guards and Junior Officers organised. • Listen to your Commanding Officer (CO). • Manage the barracks. • Consult your Jailer for sentences. • Listen to Civilian complaints against your subordinates and act accordingly. Trust in the Military is paramount!")
+	H.setStat("strength", STAT_MEDIUM_HIGH)
+	H.setStat("crafting", STAT_NORMAL)
+	H.setStat("rifle", STAT_MEDIUM_HIGH)
+	H.setStat("dexterity", STAT_NORMAL)
+	H.setStat("swords", STAT_MEDIUM_HIGH)
+	H.setStat("pistol", STAT_MEDIUM_HIGH)
+	H.setStat("bows", STAT_NORMAL)
+	H.setStat("medical", STAT_NORMAL)
+
+
+	return TRUE
 
 /datum/job/civilian/veteran
 	title = "Town Guard"
@@ -319,7 +485,7 @@
 
 	H.equip_to_slot_or_del(new /obj/item/weapon/melee/classic_baton(H), slot_belt)
 
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
+	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_l_store)
 	H.equip_to_slot_or_del(new /obj/item/weapon/key/civ/hall(H), slot_r_store)
 	var/obj/item/clothing/accessory/storage/webbing/filled_a = new /obj/item/clothing/accessory/storage/webbing(null)
 	filled_a.attackby(new/obj/item/ammo_casing/musketball, H)
@@ -328,8 +494,26 @@
 	filled_a.attackby(new/obj/item/ammo_casing/musketball, H)
 	var/obj/item/clothing/under/uniform = H.w_uniform
 	uniform.attackby(filled_a, H)
+	var/rank = title
+	var/randtitle = rand(1,5)
+	if (randtitle == 1)
+		H.title = "Pvt. "
+		rank = "Private"
+	if (randtitle == 2)
+		H.title = "Pvt-FC. "
+		rank = "Private First Class"
+	if (randtitle == 3)
+		H.title = "Lc-Cpl. "
+		rank = "Lance Corporal"
+	if (randtitle == 4)
+		H.title = "Cpl. "
+		rank = "Corporal"
 
-	H.add_note("Role", "You are a <b>[title]</b>, a veteran of past wars. Your job is to organize the colony defense and hunting parties, according to the orders of the <b>Town Guard Officer</b>.")
+	H.add_note("Role", "You are a <b>[title]</b> bearing the rank of <b>[rank]</b>, and belong to the 42nd King's Fusiliers Regiment of Leicester, led by your Colonel and his Officers. You answer to your Junior- and Senior Officers, and the Colonel's word overrules all Officers.")
+	H.add_note("Colony Security", "Your main job is to enforce the LAW and follow orders from your Officers. You must protect fellow colonists and the colony itself")
+	H.add_note("Your Regiment", "As a regiment of one of His Majesty's Colonial Armies, you are not directly under the Colony's command. You are an independent military unit stationed in this colony to protect it. You do not answer to the Governor, you answer to your Officers and the Colonel.")
+	H.add_note("The Jailer", "This colony has a Jailer who you bring arrested criminals to. They decide how long their sentence is and are in charge of holding them captive and releasing them when their time is up.")
+	H.add_note("Job Summary", "• Protect the Colony. • Enforce the LAW. • Listen to your Officers and Colonel • Arrest criminals")
 	H.setStat("strength", STAT_MEDIUM_HIGH)
 	H.setStat("crafting", STAT_MEDIUM_LOW)
 	H.setStat("rifle", STAT_MEDIUM_HIGH)
@@ -391,9 +575,11 @@
 	H.equip_to_slot_or_del(new /obj/item/clothing/head/powdered_wig(H), slot_head)
 	H.equip_to_slot_or_del(new /obj/item/weapon/storage/firstaid/surgery(H), slot_l_hand)
 	H.equip_to_slot_or_del(new /obj/item/weapon/doctor_handbook(H), slot_l_store)
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_r_store)
+	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_r_store)
 
 	H.add_note("Role", "You are a <b>[title]</b>, in charge of keeping the newly founded colony healthy.")
+	H.add_note("The Healer", "Your main job is to keep the colonists from dying and healing them. You do not start with a clinic, so you may need to have a basic one built. For now, make do with what you have")
+	H.add_note("Command", "As a general worker, you answer directly to the Governor. He is your boss.")
 	H.setStat("strength", STAT_NORMAL)
 	H.setStat("crafting", STAT_NORMAL)
 	H.setStat("rifle", STAT_MEDIUM_LOW)
@@ -450,10 +636,12 @@
 
 //head
 	H.equip_to_slot_or_del(new /obj/item/clothing/head/powdered_wig(H), slot_head)
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
+	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_l_store)
+	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_l_store)
 
-	H.add_note("Role", "You are a <b>[title]</b>, a trader who decided to move in to the new colony to get rich. Establish your trading post and deal with both the Natives and the Colonists!")
+	H.add_note("Role", "You are a <b>[title]</b>, in charge of helping make the colony money.")
+	H.add_note("The Trader", "Your main job is to help make the colony money. You are paid a regular wage for your contributions. You are allowed to make your own personal sales with items you personally harvested, however it can be taxed by the bank.")
+	H.add_note("Command", "As a general worker, you answer directly to the Governor. He is your boss.")
 	H.setStat("strength", STAT_NORMAL)
 	H.setStat("crafting", STAT_MEDIUM_HIGH)
 	H.setStat("rifle", STAT_MEDIUM_LOW)
@@ -491,10 +679,11 @@
 		H.equip_to_slot_or_del(new /obj/item/clothing/under/nun(H), slot_w_uniform)
 		H.equip_to_slot_or_del(new /obj/item/clothing/head/nun_hood(H), slot_head)
 
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
+	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_l_store)
+	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_l_store)
 
-	H.add_note("Role", "You are a <b>[title]</b>, in charge of the colony's religious affairs, assisting the doctor, and if possible, of converting the natives...")
+	H.add_note("Role", "You are a <b>[title]</b>, in charge of the church, adhering to religious law, assisting the doctor, delivering sermons, taking confessions, and converting the unfaithful.")
+	H.add_note("Command", "As a general worker, you answer directly to the Governor. He is your boss.")
 	H.setStat("strength", STAT_MEDIUM_LOW)
 	H.setStat("crafting", STAT_NORMAL)
 	H.setStat("rifle", STAT_MEDIUM_LOW)
@@ -551,8 +740,10 @@
 
 	H.equip_to_slot_or_del(new/obj/item/weapon/material/pickaxe(H), slot_belt)
 	H.equip_to_slot_or_del(new/obj/item/weapon/material/shovel(H), slot_back)
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
-	H.add_note("Role", "You are a <b>[title]</b>, a former miner who decided to move into the New World to find riches. Explore the area, mine, and sell to the <b>Merchant</b> what you find!")
+	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_l_store)
+	H.add_note("Role", "You are a <b>[title]</b>, working underground and in the hills to extract natural resources for the colony")
+	H.add_note("Resources", "All resources you extract are property of the colony.")
+	H.add_note("Command", "As a general worker, you answer directly to the Governor. He is your boss.")
 	H.setStat("strength", STAT_HIGH)
 	H.setStat("crafting", STAT_MEDIUM_HIGH)
 	H.setStat("rifle", STAT_NORMAL)
@@ -610,9 +801,11 @@
 	H.equip_to_slot_or_del(new/obj/item/weapon/storage/belt/leather/farmer(H), slot_belt)
 	H.equip_to_slot_or_del(new/obj/item/weapon/plough(H), slot_l_hand)
 	H.equip_to_slot_or_del(new/obj/item/weapon/material/kitchen/utensil/knife(H), slot_r_store)
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
+	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_l_store)
 
-	H.add_note("Role", "You are a <b>[title]</b>, specialized in plant growth, animal husbandry, and cooking. Keep the colony fed!")
+	H.add_note("Role", "You are a <b>[title]</b>, working in the fields to gather valuable harvest, keep the colony fed, and supply the inn.")
+	H.add_note("The Colony's Sustenance", "Your main job is to dig fields and harvest crops in order to keep the colony fed. All resources you harvest are property of the colony. You are also the inn's main supplier, as they of course cook the food.")
+	H.add_note("Command", "As a general worker, you answer directly to the Governor. He is your boss.")
 	H.setStat("strength", STAT_MEDIUM_HIGH)
 	H.setStat("crafting", STAT_MEDIUM_HIGH)
 	H.setStat("rifle", STAT_MEDIUM_LOW)
@@ -684,9 +877,11 @@
 		H.equip_to_slot_or_del(new /obj/item/clothing/head/kerchief(H), slot_head)
 	H.equip_to_slot_or_del(new/obj/item/weapon/material/hatchet(H), slot_belt)
 	H.equip_to_slot_or_del(new/obj/item/weapon/wrench(H), slot_r_store)
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
+	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_l_store)
 
-	H.add_note("Role", "You are a <b>Carpenter</b>. Organize the supplies and help the colonists build the Village!")
+	H.add_note("Role", "You are a <b>[title]</b>, directly under the Architect's command and in charge of helping colonists build structures!")
+	H.add_note("Colonial Expansion", "Your main job is to use the colony's building material according to your Architect's orders and help with building projects. You are the colony's means of expansion!")
+	H.add_note("Command", "As a builder, you answer directly to the Architect. He is your boss.")
 	H.setStat("strength", STAT_MEDIUM_HIGH)
 	H.setStat("crafting", STAT_VERY_HIGH)
 	H.setStat("rifle", STAT_MEDIUM_LOW)
@@ -761,9 +956,11 @@
 
 	H.equip_to_slot_or_del(new 	/obj/item/weapon/hammer(H), slot_belt)
 	H.equip_to_slot_or_del(new 	/obj/item/stack/material/iron/twentyfive(H), slot_l_hand)
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
+	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_l_store)
 
-	H.add_note("Role", "You are a <b>[title]</b>. Your job is to craft weapons and guns. However, you probably should follow the <b>Governor's</b> orders!")
+	H.add_note("Role", "You are a <b>[title]</b>, in charge of the colony's production of tools, weapons and other forge items.")
+	H.add_note("The Colony's Hammer", "Your main job is to produce weapons, tools and ingots for the colony. Everything you produce is property of the colony. If someone asks you to produce something with a resource they personally own, you can charge them a fair fee, which you get to keep! You are allowed to run this side business.")
+	H.add_note("Command", "As a general worker, you answer directly to the Governor. He is your boss.")
 	H.setStat("strength", STAT_VERY_HIGH)
 	H.setStat("crafting", 250)
 	H.setStat("rifle", STAT_MEDIUM_LOW)
@@ -774,10 +971,10 @@
 	H.setStat("medical", STAT_VERY_LOW)
 	return TRUE
 
-/datum/job/civilian/inkeeper
-	title = "Inkeeper"
-	en_meaning = "Colony Innkeeper/Taverner"
-	rank_abbreviation = "Innkeeper"
+/datum/job/civilian/cook
+	title = "Cook"
+	en_meaning = "Colony Cook"
+	rank_abbreviation = "Cook"
 	can_be_female = TRUE
 	spawn_location = "JoinLateCivD"
 
@@ -832,11 +1029,13 @@
 	//head
 		H.equip_to_slot_or_del(new /obj/item/clothing/head/kerchief(H), slot_head)
 
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
+	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_l_store)
 	H.equip_to_slot_or_del(new/obj/item/weapon/key/civ/inn(H), slot_r_store)
 	H.equip_to_slot_or_del(new/obj/item/weapon/material/kitchen/utensil/knife/butcher(H), slot_belt)
 
-	H.add_note("Role", "You are a <b>Inkeeper</b>. Your job is to build an Inn or Tavern to supply the Colonists with wine and food!")
+	H.add_note("Role", "You are a <b>Cook</b>. Your job is to manage the inn's kitchen and cook food for the colonists!")
+	H.add_note("You & the Barkeep", "You and the barkeep collectively work in the same building, and you must coordinate with them in order to make the most out of this inn!")
+	H.add_note("Command", "As a general worker, you answer directly to the Governor. He is your boss.")
 	H.setStat("strength", STAT_MEDIUM_HIGH)
 	H.setStat("crafting", STAT_NORMAL)
 	H.setStat("rifle", STAT_MEDIUM_LOW)
@@ -907,11 +1106,13 @@
 	//head
 		H.equip_to_slot_or_del(new /obj/item/clothing/head/kerchief(H), slot_head)
 
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
+	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_l_store)
 	H.equip_to_slot_or_del(new/obj/item/weapon/key/civ/inn(H), slot_r_store)
 	H.equip_to_slot_or_del(new/obj/item/weapon/material/kitchen/utensil/knife/butcher(H), slot_belt)
 
-	H.add_note("Role", "You are a <b>Inkeeper</b>. Your job is to man an Inn or Tavern to supply the Colonists with wine and food!")
+	H.add_note("Role", "You are the <b>Barkeep</b>. Your job is to manage the inn's kitchen and serve drinks!")
+	H.add_note("You & the Cook(s)", "You and the cook(s) collectively work in the same building, and you must coordinate with them in order to make the most out of this inn!")
+	H.add_note("Command", "As a general worker, you answer directly to the Governor. He is your boss.")
 	H.setStat("strength", STAT_MEDIUM_HIGH)
 	H.setStat("crafting", STAT_NORMAL)
 	H.setStat("rifle", STAT_MEDIUM_LOW)
@@ -984,9 +1185,10 @@
 	//head
 		H.equip_to_slot_or_del(new /obj/item/clothing/head/kerchief(H), slot_head)
 
-	H.equip_to_slot_or_del(new/obj/item/stack/money/real(H), slot_l_store)
+	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_l_store)
 
-	H.add_note("Role", "You are a simple <b>Colonist</b>. Build your village!")
+	H.add_note("Role", "You are a simple <b>Colonist</b>. Help build your colony!")
+	H.add_note("Command", "You are an independent colonist residing within this village, but the Governor does have authority over you as a general worker. If you are not given any specific orders, you may act independently.")
 	H.setStat("strength", STAT_MEDIUM_HIGH)
 	H.setStat("crafting", STAT_MEDIUM_LOW)
 	H.setStat("rifle", STAT_MEDIUM_LOW)
@@ -1020,7 +1222,8 @@
 	H.equip_to_slot_or_del(new /obj/item/clothing/under/medieval/lighttunic(H), slot_w_uniform)
 
 
-	H.add_note("Role", "You are a penyless colonist. Try to survive!")
+	H.add_note("Role", "You traveled here, full of dreams for the colonial future, but ended up pennyless, and now you're stuck here. Survive as a pennyless colonist!")
+	H.add_note("Command", "You are under nobody's command. You are still under the law, and if you are told not to do something, don't do it, but you are fully independent in your everyday affairs.")
 	H.setStat("strength", STAT_MEDIUM_HIGH)
 	H.setStat("crafting", STAT_MEDIUM_LOW)
 	H.setStat("rifle", STAT_MEDIUM_LOW)
