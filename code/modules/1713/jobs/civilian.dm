@@ -441,9 +441,9 @@
 	uniform.attackby(filled_a, H)
 	var/rank = "Colonel"
 
-	H.add_note("Role", "You are the [title], bearing the rank of <b>[rank]</b>. Your job is to organize the <b>Colonial Guards</b> and <b>Senior Officers</b> in order to help keep the colony safe!")
+	H.add_note("Role", "You are the [title], bearing the rank of <b>[rank]</b>. You are the Commanding Officer of the 42nd King's Fusiliers Regiment of Leicester, stationed in this colony to protect it and uphold the law! Manage your Officers and organise your troops. Your word overrules theirs.")
 	H.add_note("Command", "You answer directly to the <b>Colonel</b>. Their word overrules yours. Your word overrules that of <b>Junior Officers</b> and <b>Colonial Guards</b>")
-	H.add_note("You & Junior Officers", "You and Junior Officers must work together to keep the troops organised. They are your subordinates.")
+	H.add_note("You & the Governor", "The Governor is not your boss, nor are you his. ")
 	H.add_note("Job Summary", "• Keep Colonial Guards and Junior Officers organised. • Listen to your Commanding Officer (CO). • Manage the barracks. • Consult your Jailer for sentences. • Listen to Civilian complaints against your subordinates and act accordingly. Trust in the Military is paramount!")
 	H.setStat("strength", STAT_MEDIUM_HIGH)
 	H.setStat("crafting", STAT_NORMAL)
